@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full height of viewport */
+    margin: 0; /* Remove default margin */
+    background-image:url('https://marketplace.canva.com/EAF3UuKnyec/1/0/1600w/canva-neutral-minimalist-elegant-interior-zoom-virtual-background-GRM3eRd-KIo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#forms{
+    background: rgba(255, 255, 255, 0.5);
+    padding:20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:400px;
+    border:2px solid black;
+    border-radius: 10px;
+}
+.in{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.in input{
+    height:25px;
+    width:250px;
+    border: none;
+    outline: none;
+    padding:10px;
+    border-radius:5px;
+}
+    
+.in label{
+    margin-bottom: 5px;
+}
+.h1{
+    color:black;
+    text-align: center;
+    border-radius:5px;
+    margin-bottom:10px;
+    width:250px;
+}
+button{
+    margin-top:10px;
+    height:30px;
+    border-radius:5px;
+    font-size:20px;
+    width:250px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(7, 7, 7);
+    transition-duration:1s;
+    color: white;
+}
